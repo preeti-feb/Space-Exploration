@@ -1,0 +1,97 @@
+body {
+    background-image: url(../Images/homepage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-family:
+        "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family:
+        "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+        Arial, sans-serif;
+}
+
+li a:hover {
+    text-shadow: 1px 1px 1px blue;
+}
+
+.explore-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons i {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.intro {
+    width: 35%;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 50%;
+    padding: 25px;
+}
+
+.intro h2 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-shadow: 1px 1px 1px white;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 65px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 3px 4px white;
+}
+
+.intro p {
+    color: white;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+}
+
+.explore a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 30%;
+    padding: 15px 25px;
+    border-radius: 7px;
+    background-color: rgb(38, 38, 240);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+
+.explore a:hover {
+    transform: scale(1.1);
+}

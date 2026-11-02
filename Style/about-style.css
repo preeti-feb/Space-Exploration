@@ -82,3 +82,39 @@ li a:hover{
     margin: 3px 10px;
     padding: 6px;
 }
+
+
+@media (max-width: 480px) {
+     body{
+        min-height: 100vh;
+    }
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+    
+    .about {
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    .about h1{
+        font-size: 40px;
+    }
+
+    .icon-space{
+        margin-left: 10%;
+        display: flex;
+
+    }
+
+    .icon-space i{
+        font-size: 30px;
+    }
+}

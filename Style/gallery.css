@@ -106,3 +106,58 @@ li a:hover {
     object-fit: cover;
 
 }
+
+/* For Tablet */
+@media (max-width: 768px) {
+    body{
+        min-height: 320vh;
+    }
+    .gallery{
+        width: 40%;
+        margin-left: 12%;
+    }
+
+    .gallery p{
+        font-size: 25px;
+    }
+    .images{
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 200px 200px;
+        
+    }    
+}
+
+
+/* For Mobile */
+@media (max-width: 480px) {
+    body{
+        min-height: 700vh;
+    }
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .gallery{
+        padding: 10px;
+        width: 70%;
+    }
+
+    .gallery p{
+        text-align: left;
+    }
+    
+    .images{
+        align-items: center;
+        grid-template-columns: 250px;
+        grid-template-rows: 200px;
+        width: 85%;
+
+    }
+}

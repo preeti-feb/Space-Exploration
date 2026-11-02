@@ -111,3 +111,75 @@ li a:hover {
 .mission a:hover {
     color: rgb(116, 116, 226);
 }
+
+
+/* For Tablet */
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 12px;
+        padding: 0;
+    }
+
+    .icons i {
+        font-size: 18px;
+        margin: 0 5px;
+    }
+
+    .latest-missions {
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .mission {
+        width: 46%;
+        height: 380px;
+    }
+
+    .missions p {
+        font-size: 17px;
+    }
+}
+
+/* For Mobile */
+@media (max-width: 480px) {
+    body{
+        min-height: 400vh;
+    }
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .mission {
+        width: 100%;
+        height: 400px;
+    }
+
+    .latest-missions {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .missions h1 {
+        font-size: 25px;
+    }
+
+    .missions h3 {
+        font-size: 17px;
+    }
+
+    .missions p {
+        font-size: 16px;
+    }
+}

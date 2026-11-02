@@ -126,3 +126,48 @@ footer p {
     color: white;
     margin: 0;
 }
+
+
+/* For Tablet */
+@media (max-width: 768px) {
+
+    .contact{
+        width: 90%;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .contact1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    
+}
+
+/* For Mobile */
+@media (max-width: 480px) {
+    body{
+        min-height: 700vh;
+    }
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .contact{
+        width: 85%;
+        flex-direction: column;
+    }
+}

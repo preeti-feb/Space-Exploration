@@ -84,6 +84,17 @@ li a:hover{
 }
 
 
+/* For Tablet */
+@media (max-width: 768px) {
+    .about{
+        margin: 10% auto;
+        width: 90%;
+    }
+    
+}
+
+
+/* For Mobile */
 @media (max-width: 480px) {
      body{
         min-height: 100vh;

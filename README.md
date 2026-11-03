@@ -2,6 +2,9 @@
 
 Welcome to Space Exploration, This is a static project that created to explore and share information about astronomy.
 
+
+
+## About this project
 In this project, you will explore a space gallery featuring planets, satellites, and galaxies. You can also read about latest missions that researchers and scientist are working on, such as 'Artemis II', 'Voyager 1' and more. This project is designed for those 
 who want to read about understand latest missions from NASA's.
 

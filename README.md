@@ -1,4 +1,4 @@
-# "Space Exploration"
+# Space Exploration
 Welcome to Space Exploration, this is static website I created to explore the universe and read about latest missions.
 
 
